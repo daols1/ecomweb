@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --mainBlue: #263C97;
+  --blueHover: #5f76d1;
+  --grey: #e7e7e7;
+  --white: rgb(255, 251, 251);
+  --darkGrey: rgb(163, 163, 163);
+}
+
+.container{
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.center-txt{
+  display: flex;
+  align-items: center;
+}
+
+.icon-2ce{
+  width: 45px;
+  height: 45px;
+}
+
+.icon-1ce{
+  width: 25px;
+  height: 25px;
+}
+
+.icon-light{
+  color: var(--grey);
+}
+
+.linked{
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width:760px){
+  .container{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+
+/* Animations */
+
+@keyframes dropdown {
+  from{height: 0px;}
+  to{height: 80.5vh;}
+}
+
+@keyframes footerdropdown {
+  from{height: 0px;}
+  to{height: 30vh;}
 }

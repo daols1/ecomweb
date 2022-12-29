@@ -1,0 +1,4 @@
+.dropped{
+    display: flex;
+    flex-direction: column;
+}

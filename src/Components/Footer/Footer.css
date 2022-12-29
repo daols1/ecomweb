@@ -1,0 +1,156 @@
+.footer{
+    background: #1F2024;
+}
+
+.footerside-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 0px;
+    border-bottom: 1px #fff solid;
+}
+
+.footer-top-h3, .footer-top-p{
+    margin: 5px;
+    color: #fff;
+}
+
+.footerside-2h{
+    font-size: 18px;
+}
+
+.icon{
+    padding-right: 10px;
+}
+
+.footerside-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    gap: 20px;
+    padding: 50px 0px;
+    border-bottom: 1px #fff solid;
+    color: #fff;
+}
+
+.share-icons{
+    display: flex;
+}
+
+.share-icon-container {
+    padding: 10px;
+    border-radius: 10px;
+    margin-right:15px;
+}
+
+.b{
+    background-color: #40C1DF;
+}
+
+.r{
+    background-color: #FF0E00;
+}
+
+.w{
+    background-color: #C72982;
+}
+
+.bb{
+    background-color: #3C5B9B;
+}
+.p{
+    background-color: #C619B8;
+}
+
+.footerside-2p{
+    color: rgb(153, 152, 152);
+    font-size: 14px;
+    font-weight: 400;
+    transition: all ease-in-out .2s;
+}
+
+.footerside-2p:hover{
+    color: #40C1DF;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-search-bar{
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.last-footer-side{
+    display: flex;
+    padding: 50px 0px;
+    align-content: center;
+    justify-content: center;
+}
+
+.last-footer-side > *{
+    padding: 5px 15px;
+    border-right: 0.5px #fff solid;
+    border-left: 0.5px #fff solid;
+}
+
+.f-text{
+    text-align: center;
+    padding: 0px 0px 40px;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .footer-top-h3{
+        font-size: 14px;
+    }
+    .footer-top-p{
+        font-size: 12px;
+    }
+    .footerside-2{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .footerside-1{
+        grid-template-columns: repeat(2, 1fr);
+        place-content: center;
+    }
+    .footerside-2{
+        grid-template-columns: 1fr 1fr;
+    }
+    .last-footer-side{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .footerside-1{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .footerside-2{
+        grid-template-columns: 1fr;
+    }
+    .share-icon-container{
+        padding: 6px;
+        margin-right: 10px;
+    }
+    .footerside-2h-withd{
+        display: grid;
+        grid-template-columns: 10fr 1fr;
+        align-items: center;
+        background-color: #171718;
+        border-radius: 10px;
+        padding: 0px 10px;
+    }
+    .nav-dropped{
+        animation: footerdropdown;
+        animation-duration: 1s;
+    }
+}
+
+
+
+
