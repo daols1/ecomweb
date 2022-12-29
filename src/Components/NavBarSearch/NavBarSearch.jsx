@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {BsPerson, BsHeart, BsCart4} from 'react-icons/bs';
 import {BiSearchAlt} from 'react-icons/bi'
 import {HiOutlineMenuAlt2, HiOutlineX} from 'react-icons/hi'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Logo from '../../assets/Logo-light.png'
 import './NavBarSearch.css'
 // import NavBarMain from '../NavBarMain/NavBarMain';
