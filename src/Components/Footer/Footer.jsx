@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import {BsCart4, BsFillCreditCardFill} from 'react-icons/bs';
 import {TbTruckDelivery} from 'react-icons/tb';
+import {BiChevronDown} from 'react-icons/bi';
 import {IoMdChatboxes} from 'react-icons/io';
 import {AiFillFacebook, AiOutlineTwitter, AiFillYoutube, AiFillLinkedin, AiFillDribbbleCircle} from 'react-icons/ai';
 import './Footer.css'
@@ -109,7 +110,7 @@ function Footer() {
                 <>
                 <div className='footerside-2h-withd'>
                     <h2 className='footerside-2h'>My Account</h2> 
-                    <div><BsCart4 className='icon-2ce search-icon-2 icon-light' onClick={footerHandler} /></div>
+                    <div><BiChevronDown className='icon-2ce search-icon-2 icon-light' onClick={footerHandler} /></div>
                 </div>
                 <div className='nav-dropped' style = {footerNav ? {display: 'none'} : {display: 'block'}}>
                 <p className='footerside-2p'>Search</p>
@@ -141,7 +142,7 @@ function Footer() {
                 <>
                 <div className='footerside-2h-withd'>
                     <h2 className='footerside-2h'>Customer Service</h2>
-                    <div><BsCart4 className='icon-2ce search-icon-2 icon-light' onClick={footerHandler1} /></div>
+                    <div><BiChevronDown className='icon-2ce search-icon-2 icon-light' onClick={footerHandler1} /></div>
                 </div>
                 <div className='nav-dropped' style = {footerNav1 ? {display: 'none'} : {display: 'block'}}>
                 <p className='footerside-2p'>Help Center</p>
@@ -180,7 +181,7 @@ function Footer() {
                 <>
                 <div className='footerside-2h-withd'>
                     <h2 className='footerside-2h'>Hot Categories</h2>
-                    <div><BsCart4 className='icon-2ce search-icon-2 icon-light' onClick={footerHandler2} /></div>
+                    <div><BiChevronDown className='icon-2ce search-icon-2 icon-light' onClick={footerHandler2} /></div>
                 </div>
                 <div className='nav-dropped' style = {footerNav2 ? {display: 'none'} : {display: 'block'}}>
                 <p className='footerside-2p'>Laptop & Computer (17)</p>
